@@ -167,6 +167,11 @@ footer i
 	color: #1E1E1E;
 }
 
+footer h6
+{
+    font-size: 0.75rem;
+}
+
 /* MEDIA QUERIES */
 @media screen and (min-width: 35rem) 
 {
@@ -288,6 +293,11 @@ footer i
 		grid-template-columns: repeat(4, 1fr);
 		justify-items: center;
 	}
+    
+    footer h6
+    {
+        font-size: 1rem;
+    }
 
 }
 
@@ -411,6 +421,11 @@ footer i
 		grid-template-columns: repeat(4, 1fr);
 		justify-items: center;
 	}
+    
+    footer h6
+    {
+        font-size: 1.25rem;
+    }
     
 }
 
