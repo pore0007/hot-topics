@@ -1,1 +1,416 @@
+/*
+#F26622
+#F2D02E
+#1E1E1E
+#ffffff
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Josefin+Slab:wght@400;600;700&display=swap');
+
+* 
+{
+  box-sizing: border-box;
+}
+
+body
+{
+	line-height: 1.5;
+	font-size: 0.75rem;
+}
+
+.logo
+{
+	height: 100px;
+	width: 100px;
+	display: block;
+    margin: 0 auto;
+}
+
+.nav
+{
+	padding: 2rem;
+	display: grid;
+	background-color: #F26622;
+	height: 200px;
+	width: 100%;
+}
+
+.nav a
+{
+	margin: 0 auto;
+	padding: 1rem;
+	font-family: "Josefin Sans", sans-serif;
+	text-decoration: none;
+	color: #1E1E1E;
+}
+
+.nav a:hover
+{
+	color: white;
+}
+
+.masthead
+{
+	background-image: url('../img/masthead.jpg');
+	background-color: gray;
+  	height: 300px;
+  	max-width: 100%;
+  	background-position: center center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.masthead h1
+{
+	padding: 2rem;
+	font-family: "Josefin Slab", serif;
+	color: black;
+}
+
+figcaption
+{
+	text-align: center;
+    color: #F2D02E;
+}
+
+.main-content
+{
+	padding: 2rem;
+}
+
+.content h2
+{
+	font-family: "Josefin Slab", serif;
+	font-size: 0.75rem;
+	margin-top: 50px;
+}
+
+.content1 h2
+{
+	font-family: "Josefin Slab", serif;
+	font-size: 0.75rem;
+	margin-top: 50px;
+}
+
+.content2 h2
+{
+	font-family: "Josefin Slab", serif;
+	font-size: 0.75rem;
+	margin-top: 50px;
+} 
+
+.img1
+{
+	width: 100%;
+}
+
+.img2
+{
+	width: 100%;
+}
+
+.img3
+{
+	width: 100%;
+}
+
+.main-content p
+{
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.portfolio
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.portfolio figure
+{
+	margin: 0;
+	flex-basis: 100%;
+	padding: 1rem;
+}
+
+.port h1
+{
+    font-family: "Josefin Slab", serif;
+}
+
+footer 
+{
+	background-color: #F2D02E;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+footer h6
+{
+	font-size: 0.75rem;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+footer a
+{
+	text-decoration: none;
+	color: #1E1E1E;
+}
+
+footer a:hover
+{
+	color: #F26622;
+}
+
+footer i
+{
+	color: #1E1E1E;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 35rem) 
+{
+	body
+	{
+		padding: 2rem;
+		line-height: 1.5;
+		font-size: 1rem;
+	}
+	
+	.nav
+	{
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		max-width: 60rem;
+		margin: 0 auto;
+		height: 100px;
+		width: 100%;
+	}
+
+	.masthead
+	{
+		background-image: url('../img/masthead.jpg');
+		background-color: gray;
+	  	height: 500px;
+	  	max-width: 100%;
+	  	background-position: center center;
+	  	background-repeat: no-repeat;
+	  	background-size:cover;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+	}
+    
+	.main-content
+	{
+		max-width: 60rem;
+		margin: 0 auto;
+	}
+    
+    .content .img1
+    {
+        float: left;
+        width: 40%;
+        margin: 10px;
+    }
+    
+    .content figcaption
+    {
+        text-align: left;
+        color: #F2D02E;
+    }
+    
+    .content h2
+    {
+        font-size: 1rem;
+    }
+    
+    .content p
+    {
+        margin: 10px;
+    }
+    
+    .content1 .img2
+    {
+        float: left;
+        width: 40%;
+        margin: 10px;
+    }
+    
+    .content1 figcaption
+    {
+        text-align: left;
+        color: #F2D02E;
+    }
+    
+    .content1 h2
+    {
+        font-size: 1rem;
+    }
+    
+    .content1 p
+    {
+        margin: 10px;
+    }
+    
+    .content2 .img3
+    {
+        float: left;
+        width: 40%;
+        margin: 10px;
+    }
+    
+    .content2 figcaption
+    {
+        text-align: left;
+        color: #F2D02E;
+    }
+    
+    .content2 h2
+    {
+        font-size: 1rem;
+    }
+    
+    .content2 p
+    {
+        margin: 10px;
+    }
+    
+    .portfolio figure
+    {
+		flex-basis: 33%;
+	}
+
+    footer
+	{
+		clear: both;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		justify-items: center;
+	}
+
+}
+
+@media screen and (min-width: 80rem) 
+{
+	body
+	{
+		padding: 2rem;
+		line-height: 1.5;
+		font-size: 1.25rem;
+	}
+	
+	.nav
+	{
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		max-width: 60rem;
+		margin: 0 auto;
+		height: 100px;
+		width: 100%;
+	}
+
+	.masthead
+	{
+		background-image: url('../img/masthead.jpg');
+		background-color: gray;
+	  	height: 500px;
+	  	max-width: 100%;
+	  	background-position: center center;
+	  	background-repeat: no-repeat;
+	  	background-size:cover;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+	}
+    
+	.main-content
+	{
+		max-width: 60rem;
+		margin: 0 auto;
+	}
+    
+    .content .img1
+    {
+        float: left;
+        width: 40%;
+        margin: 10px;
+    }
+    
+    .content figcaption
+    {
+        text-align: left;
+        color: #F2D02E;
+    }
+    
+    .content h2
+    {
+        font-size: 1.25rem;
+    } 
+    .content p
+    {
+        margin: 10px;
+    }
+    
+    .content1 .img2
+    {
+        float: left;
+        width: 40%;
+        margin: 10px;
+    }
+    
+    .content1 figcaption
+    {
+        text-align: left;
+        color: #F2D02E;
+    }
+    
+    .content1 p
+    {
+        margin: 10px;
+    }
+    
+    .content1 h2
+    {
+        font-size: 1.25rem;
+    }
+    
+    .content2 .img3
+    {
+        float: left;
+        width: 40%;
+        margin: 10px;
+    }
+    
+    .content2 figcaption
+    {
+        text-align: left;
+        color: #F2D02E;
+    }
+    
+    .content2 h2
+    {
+        font-size: 1.25rem;
+    }
+    
+    .content2 p
+    {
+        margin: 10px;
+    }
+    
+    
+    .portfolio figure
+    {
+		flex-basis: 33%;
+	}
+
+    footer
+	{
+		clear: both;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		justify-items: center;
+	}
+    
+}
 
