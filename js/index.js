@@ -1,8 +1,8 @@
 /*** references to  HTML elements ***/
-const container = document.querySelectorAll('.main-content'); // event target object
-const links = document.querySelector('.nav a');
+const container = document.querySelector('.main-content'); // event target object
+const links = document.querySelectorAll('.nav a');
 
-let url = '/partials/home.html';
+let url = 'partials/home.html';
 
 function loadContent(url)
 {
