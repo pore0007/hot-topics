@@ -84,6 +84,7 @@ figcaption
 	font-family: "Josefin Slab", serif;
 	font-size: 0.75rem;
 	margin-top: 50px;
+    color: #F26622;
 }
 
 .content1 h2
@@ -91,6 +92,7 @@ figcaption
 	font-family: "Josefin Slab", serif;
 	font-size: 0.75rem;
 	margin-top: 50px;
+    color: #F26622;
 }
 
 .content2 h2
@@ -98,6 +100,7 @@ figcaption
 	font-family: "Josefin Slab", serif;
 	font-size: 0.75rem;
 	margin-top: 50px;
+    color: #F26622;
 } 
 
 .img1
@@ -136,6 +139,7 @@ figcaption
 .port h1
 {
     font-family: "Josefin Slab", serif;
+    color: #F26622;
 }
 
 footer 
@@ -228,6 +232,7 @@ footer h6
     .content h2
     {
         font-size: 1rem;
+        color: #F26622;
     }
     
     .content p
@@ -251,6 +256,7 @@ footer h6
     .content1 h2
     {
         font-size: 1rem;
+        color: #F26622;
     }
     
     .content1 p
@@ -274,6 +280,7 @@ footer h6
     .content2 h2
     {
         font-size: 1rem;
+        color: #F26622;
     }
     
     .content2 p
@@ -356,6 +363,7 @@ footer h6
     .content h2
     {
         font-size: 1.25rem;
+        color: #F26622;
     } 
     .content p
     {
@@ -383,6 +391,7 @@ footer h6
     .content1 h2
     {
         font-size: 1.25rem;
+        color: #F26622;
     }
     
     .content2 .img3
@@ -401,6 +410,7 @@ footer h6
     .content2 h2
     {
         font-size: 1.25rem;
+        color: #F26622;
     }
     
     .content2 p
